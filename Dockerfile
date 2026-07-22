@@ -1,7 +1,7 @@
 FROM oven/bun:debian
 
 RUN apt update
-RUN apt install -y openjdk-17-jdk
+RUN apt install -y openjdk-21-jdk
 
 USER bun
 
